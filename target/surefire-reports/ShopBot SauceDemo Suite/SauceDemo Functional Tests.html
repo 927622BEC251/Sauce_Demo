@@ -1,0 +1,215 @@
+<html>
+<head>
+<title>TestNG:  SauceDemo Functional Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>SauceDemo Functional Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>27/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon May 11 08:39:32 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>77 seconds (77437 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.shopbot.tests.ProblemUserTests.verifyProblemUserProductDetailShowsBrokenNavigationBehavior()'><b>verifyProblemUserProductDetailShowsBrokenNavigationBehavior</b><br>Test class: com.shopbot.tests.ProblemUserTests</td>
+<td></td>
+<td>0</td>
+<td>com.shopbot.tests.ProblemUserTests@2b662a77</td></tr>
+<tr>
+<td title='com.shopbot.tests.ProductTests.verifyProductDetailNameAndPriceMatchListing()'><b>verifyProductDetailNameAndPriceMatchListing</b><br>Test class: com.shopbot.tests.ProductTests</td>
+<td></td>
+<td>0</td>
+<td>com.shopbot.tests.ProductTests@77847718</td></tr>
+<tr>
+<td title='com.shopbot.tests.CheckoutTests.verifyCompleteOrderShowsConfirmationMessage()'><b>verifyCompleteOrderShowsConfirmationMessage</b><br>Test class: com.shopbot.tests.CheckoutTests</td>
+<td></td>
+<td>1</td>
+<td>com.shopbot.tests.CheckoutTests@57a3af25</td></tr>
+<tr>
+<td title='com.shopbot.tests.ProductTests.verifySortProductsByNameAToZ()'><b>verifySortProductsByNameAToZ</b><br>Test class: com.shopbot.tests.ProductTests</td>
+<td></td>
+<td>0</td>
+<td>com.shopbot.tests.ProductTests@77847718</td></tr>
+<tr>
+<td title='com.shopbot.tests.AuthenticationTests.verifyLockedOutUserSeesCorrectError()'><b>verifyLockedOutUserSeesCorrectError</b><br>Test class: com.shopbot.tests.AuthenticationTests</td>
+<td></td>
+<td>0</td>
+<td>com.shopbot.tests.AuthenticationTests@79924b</td></tr>
+<tr>
+<td title='com.shopbot.tests.CartTests.verifyCartRetainsItemsAfterNavigatingBackToProductListing()'><b>verifyCartRetainsItemsAfterNavigatingBackToProductListing</b><br>Test class: com.shopbot.tests.CartTests</td>
+<td></td>
+<td>0</td>
+<td>com.shopbot.tests.CartTests@7f3b84b8</td></tr>
+<tr>
+<td title='com.shopbot.tests.CheckoutTests.verifyOrderSummaryShowsCorrectProductName()'><b>verifyOrderSummaryShowsCorrectProductName</b><br>Test class: com.shopbot.tests.CheckoutTests</td>
+<td></td>
+<td>1</td>
+<td>com.shopbot.tests.CheckoutTests@57a3af25</td></tr>
+<tr>
+<td title='com.shopbot.tests.ProductTests.verifySortProductsByPriceLowToHigh()'><b>verifySortProductsByPriceLowToHigh</b><br>Test class: com.shopbot.tests.ProductTests</td>
+<td></td>
+<td>0</td>
+<td>com.shopbot.tests.ProductTests@77847718</td></tr>
+<tr>
+<td title='com.shopbot.tests.ProblemUserTests.verifyProblemUserProductImagesUseBrokenAsset()'><b>verifyProblemUserProductImagesUseBrokenAsset</b><br>Test class: com.shopbot.tests.ProblemUserTests</td>
+<td></td>
+<td>1</td>
+<td>com.shopbot.tests.ProblemUserTests@2b662a77</td></tr>
+<tr>
+<td title='com.shopbot.tests.ProductTests.verifyBackNavigationFromProductDetailReturnsToProductListing()'><b>verifyBackNavigationFromProductDetailReturnsToProductListing</b><br>Test class: com.shopbot.tests.ProductTests</td>
+<td></td>
+<td>0</td>
+<td>com.shopbot.tests.ProductTests@77847718</td></tr>
+<tr>
+<td title='com.shopbot.tests.CartTests.verifyAddOneProductUpdatesCartBadgeToOne()'><b>verifyAddOneProductUpdatesCartBadgeToOne</b><br>Test class: com.shopbot.tests.CartTests</td>
+<td></td>
+<td>0</td>
+<td>com.shopbot.tests.CartTests@7f3b84b8</td></tr>
+<tr>
+<td title='com.shopbot.tests.CartTests.verifyCartPageShowsAddedProductName()'><b>verifyCartPageShowsAddedProductName</b><br>Test class: com.shopbot.tests.CartTests</td>
+<td></td>
+<td>0</td>
+<td>com.shopbot.tests.CartTests@7f3b84b8</td></tr>
+<tr>
+<td title='com.shopbot.tests.CheckoutTests.verifyCheckoutAcceptsValidCustomerDetails()'><b>verifyCheckoutAcceptsValidCustomerDetails</b><br>Test class: com.shopbot.tests.CheckoutTests</td>
+<td></td>
+<td>1</td>
+<td>com.shopbot.tests.CheckoutTests@57a3af25</td></tr>
+<tr>
+<td title='com.shopbot.tests.AuthenticationTests.verifyLoginWithMultipleUserTypes()'><b>verifyLoginWithMultipleUserTypes</b><br>Test class: com.shopbot.tests.AuthenticationTests<br>Parameters: invalidUser, false, do not match</td>
+<td></td>
+<td>0</td>
+<td>com.shopbot.tests.AuthenticationTests@79924b</td></tr>
+<tr>
+<td title='com.shopbot.tests.AuthenticationTests.verifySuccessfulLoginWithStandardUser()'><b>verifySuccessfulLoginWithStandardUser</b><br>Test class: com.shopbot.tests.AuthenticationTests</td>
+<td></td>
+<td>0</td>
+<td>com.shopbot.tests.AuthenticationTests@79924b</td></tr>
+<tr>
+<td title='com.shopbot.tests.ProductTests.verifyProductListingShowsProducts()'><b>verifyProductListingShowsProducts</b><br>Test class: com.shopbot.tests.ProductTests</td>
+<td></td>
+<td>0</td>
+<td>com.shopbot.tests.ProductTests@77847718</td></tr>
+<tr>
+<td title='com.shopbot.tests.ProblemUserTests.verifyProblemUserAddProductBehaviorUpdatesCartBadge()'><b>verifyProblemUserAddProductBehaviorUpdatesCartBadge</b><br>Test class: com.shopbot.tests.ProblemUserTests</td>
+<td></td>
+<td>0</td>
+<td>com.shopbot.tests.ProblemUserTests@2b662a77</td></tr>
+<tr>
+<td title='com.shopbot.tests.ProblemUserTests.verifyProblemUserImagesAreNotLoadingCorrectly()'><b>verifyProblemUserImagesAreNotLoadingCorrectly</b><br>Test class: com.shopbot.tests.ProblemUserTests</td>
+<td></td>
+<td>1</td>
+<td>com.shopbot.tests.ProblemUserTests@2b662a77</td></tr>
+<tr>
+<td title='com.shopbot.tests.AuthenticationTests.verifyLoginWithMultipleUserTypes()'><b>verifyLoginWithMultipleUserTypes</b><br>Test class: com.shopbot.tests.AuthenticationTests<br>Parameters: standardUser, true, </td>
+<td></td>
+<td>0</td>
+<td>com.shopbot.tests.AuthenticationTests@79924b</td></tr>
+<tr>
+<td title='com.shopbot.tests.CheckoutTests.verifyOrderSummaryShowsCorrectProductPriceSubtotal()'><b>verifyOrderSummaryShowsCorrectProductPriceSubtotal</b><br>Test class: com.shopbot.tests.CheckoutTests</td>
+<td></td>
+<td>1</td>
+<td>com.shopbot.tests.CheckoutTests@57a3af25</td></tr>
+<tr>
+<td title='com.shopbot.tests.CheckoutTests.verifyOrderTotalIsDisplayedOnSummaryPage()'><b>verifyOrderTotalIsDisplayedOnSummaryPage</b><br>Test class: com.shopbot.tests.CheckoutTests</td>
+<td></td>
+<td>1</td>
+<td>com.shopbot.tests.CheckoutTests@57a3af25</td></tr>
+<tr>
+<td title='com.shopbot.tests.AuthenticationTests.verifyLoginWithMultipleUserTypes()'><b>verifyLoginWithMultipleUserTypes</b><br>Test class: com.shopbot.tests.AuthenticationTests<br>Parameters: lockedOutUser, false, locked out</td>
+<td></td>
+<td>0</td>
+<td>com.shopbot.tests.AuthenticationTests@79924b</td></tr>
+<tr>
+<td title='com.shopbot.tests.CartTests.verifyRemoveProductFromCartPage()'><b>verifyRemoveProductFromCartPage</b><br>Test class: com.shopbot.tests.CartTests</td>
+<td></td>
+<td>0</td>
+<td>com.shopbot.tests.CartTests@7f3b84b8</td></tr>
+<tr>
+<td title='com.shopbot.tests.ProblemUserTests.verifyProblemUserCanLoginToProductListing()'><b>verifyProblemUserCanLoginToProductListing</b><br>Test class: com.shopbot.tests.ProblemUserTests</td>
+<td></td>
+<td>0</td>
+<td>com.shopbot.tests.ProblemUserTests@2b662a77</td></tr>
+<tr>
+<td title='com.shopbot.tests.AuthenticationTests.verifyLogoutRedirectsToLoginPage()'><b>verifyLogoutRedirectsToLoginPage</b><br>Test class: com.shopbot.tests.AuthenticationTests</td>
+<td></td>
+<td>1</td>
+<td>com.shopbot.tests.AuthenticationTests@79924b</td></tr>
+<tr>
+<td title='com.shopbot.tests.AuthenticationTests.verifyEmptyUsernameAndPasswordShowsError()'><b>verifyEmptyUsernameAndPasswordShowsError</b><br>Test class: com.shopbot.tests.AuthenticationTests</td>
+<td></td>
+<td>0</td>
+<td>com.shopbot.tests.AuthenticationTests@79924b</td></tr>
+<tr>
+<td title='com.shopbot.tests.CartTests.verifyAddTwoProductsUpdatesCartBadgeToTwo()'><b>verifyAddTwoProductsUpdatesCartBadgeToTwo</b><br>Test class: com.shopbot.tests.CartTests</td>
+<td></td>
+<td>0</td>
+<td>com.shopbot.tests.CartTests@7f3b84b8</td></tr>
+</table><p>
+</body>
+</html>

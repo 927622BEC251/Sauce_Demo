@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ShopBot SauceDemo Suite">
+    <listeners>
+        <listener class-name="com.shopbot.listeners.TestListener"/>
+    </listeners>
+    <test name="SauceDemo Functional Tests">
+        <classes>
+            <class name="com.shopbot.tests.AuthenticationTests"/>
+            <class name="com.shopbot.tests.ProductTests"/>
+            <class name="com.shopbot.tests.CartTests"/>
+            <class name="com.shopbot.tests.CheckoutTests"/>
+            <class name="com.shopbot.tests.ProblemUserTests"/>
+        </classes>
+    </test>
+</suite>
