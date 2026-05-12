@@ -98,4 +98,6 @@ mvn clean test
 * HTML Extent Report
 * Screenshot on Failure
 * Pass/Fail Status
+<img width="1919" height="986" alt="image" src="https://github.com/user-attachments/assets/2eb97f62-fb04-48cf-9d9f-a5ddc17850ac" />
+
 
